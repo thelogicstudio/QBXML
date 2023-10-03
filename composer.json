@@ -5,7 +5,10 @@
 	"autoload":    {
 		"psr-4": {
 			"TheLogicStudio\\QBXML\\": "lib/QBXML"
-		}
+		},
+		"files": [
+			"lib/Constants.php"
+		]
 	},
 	"authors":     [
 		{
