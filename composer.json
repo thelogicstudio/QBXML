@@ -10,10 +10,15 @@
 			"lib/Constants.php"
 		]
 	},
-	"authors":     [
+	"authors": [
 		{
-			"name":  "Ian Simpson",
-			"email": "ian@logicstudio.nz"
+		    "name": "The Logic Studio",
+		    "homepage": "https://logicstudio.nz",
+		    "email": "hello@logicstudio.nz"
+		},
+		{
+		    "name": "Ian Simpson",
+		    "email": "ian@logicstudio.nz"
 		}
 	],
 	"require":     {
