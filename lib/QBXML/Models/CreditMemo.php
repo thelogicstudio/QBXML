@@ -153,6 +153,26 @@
 			return $this->addListItem('CreditMemoLine', $obj);
 		}
 
+		public function getCreditMemoLine($i) {
+			return $this->getListItem('CreditMemoLine', $i);
+		}
+
+		public function listCreditMemoLines() {
+			return $this->getList('CreditMemoLine');
+		}
+
+		public function addLinkedTxn($obj) {
+			return $this->addListItem('LinkedTxn', $obj);
+		}
+
+		public function getLinkedTxn($i) {
+			return $this->getListItem('LinkedTxn', $i);
+		}
+
+		public function listLinkedTxns() {
+			return $this->getList('LinkedTxn');
+		}
+
 		public function setShipMethodName($name) {
 			return $this->set('ShipMethodRef FullName', $name);
 		}

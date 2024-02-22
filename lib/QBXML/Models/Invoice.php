@@ -595,6 +595,18 @@
 			return $this->getList('InvoiceLine');
 		}
 
+		public function addLinkedTxn($obj) {
+			return $this->addListItem('LinkedTxn', $obj);
+		}
+
+		public function getLinkedTxn($i) {
+			return $this->getListItem('LinkedTxn', $i);
+		}
+
+		public function listLinkedTxns() {
+			return $this->getList('LinkedTxn');
+		}
+
 		/**
 		 * Add a discount line (only supported by Online Edition as of 8.0)
 		 *

@@ -710,6 +710,15 @@
 
 						$children = [
 							'InvoiceLineRet' => [Invoice\InvoiceLine::class, 'addInvoiceLine'],
+							'LinkedTxn'      => [Invoice\LinkedTxn::class, 'addLinkedTxn'],
+						];
+
+						break;
+					case QUICKBOOKS_OBJECT_CREDITMEMO:
+
+						$children = [
+							'CreditMemoLineRet' => [CreditMemo\CreditMemoLine::class, 'addCreditMemoLine'],
+							'LinkedTxn'         => [CreditMemo\LinkedTxn::class, 'addLinkedTxn'],
 						];
 
 						break;
